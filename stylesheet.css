@@ -58,9 +58,20 @@ table {
 text-align: left;
 border-collapse: collapse;
 border-color: black;
+tr:nth-child(even);
+}
+
+th  {
+    padding: 10px;
+    background-color: blue;
+    color: white;
 }
 
 td {
     padding: 10px;
     width: 150px;
-}
+    }
+
+tr:nth-child(even) {
+        background-color: aquamarine;
+    }
